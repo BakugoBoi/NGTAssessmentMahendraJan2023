@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.app.test.VerifyLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.app.test.VerifyLogin -->
+      <class name="com.app.test.AddElements">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyAddtoCart"/>
+        </methods>
+      </class> <!-- com.app.test.AddElements -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
